@@ -109,7 +109,7 @@ export function Hero() {
 				>
 					<motion.span
 						initial={{ opacity: 0 }}
-						animate={{ opacity: 1 }}
+						animate={{ opacity: 0.8 }}
 						transition={{ duration: 1, delay: 0.6 }}
 					>
 						Software Developer crafting immersive digital experiences with

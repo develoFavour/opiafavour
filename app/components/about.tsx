@@ -4,7 +4,20 @@ import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import {
+	SiExpress,
+	SiJavascript,
+	SiMongodb,
+	SiNextdotjs,
+	SiTypescript,
+} from "react-icons/si";
 import Image from "next/image";
+import { FaReact } from "react-icons/fa";
+import { TbBrandThreejs } from "react-icons/tb";
+import { FiFramer } from "react-icons/fi";
+import { FaCircleNodes, FaGolang } from "react-icons/fa6";
+import { RiNodejsLine, RiTailwindCssFill } from "react-icons/ri";
+// import {} from "lucide-react";
 
 export function About() {
 	const sectionRef = useRef<HTMLDivElement>(null);
@@ -142,23 +155,25 @@ export function About() {
 
 						<div className="mt-8 grid grid-cols-2 md:grid-cols-3 gap-4">
 							{[
-								"Next.js",
-								"React",
-								"Three.js",
-								"GSAP",
-								"Framer Motion",
-								"TypeScript",
-								"Javascript",
-								"Node.js",
-								"Express.js",
-								"Golang",
-								"Tailwind CSS",
-							].map((skill) => (
+								{ title: "Next.js", icon: <SiNextdotjs /> },
+								{ title: "React", icon: <FaReact /> },
+								{ title: "Three.js", icon: <TbBrandThreejs /> },
+								{ title: "Framer Motion", icon: <FiFramer /> },
+								{ title: "GSAP", icon: <FaCircleNodes /> },
+								{ title: "TypeScript", icon: <SiTypescript /> },
+								{ title: "Javascript", icon: <SiJavascript /> },
+								{ title: "Node.js", icon: <RiNodejsLine /> },
+								{ title: "Express.js", icon: <SiExpress /> },
+								{ title: "Golang", icon: <FaGolang /> },
+								{ title: "Tailwind CSS", icon: <RiTailwindCssFill /> },
+								{ title: "MongoDB", icon: <SiMongodb /> },
+							].map((skill, i) => (
 								<div
-									key={skill}
-									className="px-4 py-2 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10 text-center"
+									key={i}
+									className="px-4 py-2 flex items-center gap-2 justify-center bg-white/5 backdrop-blur-sm rounded-lg border border-white/10 text-center"
 								>
-									{skill}
+									{skill.title}
+									{skill.icon}
 								</div>
 							))}
 						</div>
