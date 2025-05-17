@@ -7,30 +7,84 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ArrowUpRight, ExternalLink, Github } from "lucide-react";
+import { SiAppwrite } from "react-icons/si";
+
+import {
+	SiJavascript,
+	SiMongodb,
+	SiNextdotjs,
+	SiTypescript,
+} from "react-icons/si";
+
+import { FaReact } from "react-icons/fa";
+// import { TbBrandThreejs } from "react-icons/tb";
+import { FiFramer } from "react-icons/fi";
+// import { FaCircleNodes, FaGolang } from "react-icons/fa6";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 const projects = [
 	{
 		id: 1,
-		title: "Immersive 3D Experience",
+		title: "Patient-Doctor Appointment Booking System",
 		description:
-			"An interactive 3D web experience built with Three.js and React Three Fiber.",
-		tags: ["Three.js", "React", "GSAP"],
-		image: "/placeholder.svg?height=600&width=800",
+			"A Fully Responsive and Functional Doctor-Patient Appointment Booking application built with REACT, Next.js, TAILWIND and Appwrite",
+		url: "https://opia-health-care.vercel.app/",
+		github_url: "https://github.com/develoFavour/opia-health-care",
+		tags: [
+			{ title: "Appwrite", icon: <SiAppwrite /> },
+			{ title: "React", icon: <FaReact /> },
+			{ title: "Next.js", icon: <SiNextdotjs /> },
+			{ title: "TypeScript", icon: <SiTypescript /> },
+			{ title: "Tailwind CSS", icon: <RiTailwindCssFill /> },
+		],
+		image: "/projects/opia-health-care2.jpg",
 	},
 	{
 		id: 2,
-		title: "E-commerce Platform",
+		title: "Top-Shop Commerce",
 		description:
 			"A modern e-commerce platform with advanced animations and smooth transitions.",
-		tags: ["Next.js", "Framer Motion", "MongoDB"],
-		image: "/placeholder.svg?height=600&width=800",
+		url: "https://top-shop-virid.vercel.app/",
+		github_url: "https://github.com/develoFavour/Top-Shop",
+		tags: [
+			{ title: "Next.js", icon: <SiNextdotjs /> },
+			{ title: "Framer Motion", icon: <FiFramer /> },
+			{ title: "TypeScript", icon: <SiTypescript /> },
+			{ title: "MongoDB", icon: <SiMongodb /> },
+		],
+		image: "/projects/topshop.jpg",
 	},
 	{
 		id: 3,
-		title: "AI-Powered Dashboard",
-		description: "A dashboard with AI-powered insights and data visualization.",
-		tags: ["React", "D3.js", "AI SDK"],
-		image: "/placeholder.svg?height=600&width=800",
+		title: "MediCare",
+		description:
+			"An advanced hospital platform with personalized dashboards for doctors, admins, and patients with the fullest features of booking appointment requests by patient, appointment scheduling, and patient management by admin, prescription by doctor, etc.",
+		url: "https://medicare-taupe.vercel.app/",
+		github_url: "https://github.com/develoFavour/MediCare",
+		tags: [
+			{ title: "Next.js", icon: <SiNextdotjs /> },
+			{ title: "Framer Motion", icon: <FiFramer /> },
+			{ title: "TypeScript", icon: <SiTypescript /> },
+			{ title: "MongoDB", icon: <SiMongodb /> },
+		],
+
+		image: "/projects/medicare.jpg",
+	},
+	{
+		id: 4,
+		title: "Pincial",
+		description:
+			"A Fully Responsive Social Media Application Pinterest Clone built with REACT, TAILWIND and SANITY",
+
+		url: "https://pincial.netlify.app/",
+		github_url: "https://github.com/develoFavour/pincial",
+		tags: [
+			{ title: "React", icon: <FaReact /> },
+			{ title: "Tailwind CSS", icon: <RiTailwindCssFill /> },
+			{ title: "JavaScript", icon: <SiJavascript /> },
+		],
+
+		image: "/projects/pincial.jpg",
 	},
 ];
 
@@ -112,6 +166,10 @@ export function Projects() {
 		};
 	}, [isMounted]);
 
+	const handleProjectClick = (url: string) => {
+		window.open(url, "_blank");
+	};
+
 	return (
 		<section
 			ref={sectionRef}
@@ -179,6 +237,7 @@ export function Projects() {
 											variant="outline"
 											className="bg-black/50 backdrop-blur-sm border-white/20 hover:bg-white/10"
 											data-cursor-hover
+											onClick={() => handleProjectClick(project.github_url)}
 										>
 											<Github className="h-4 w-4" />
 										</Button>
@@ -187,6 +246,7 @@ export function Projects() {
 											variant="outline"
 											className="bg-black/50 backdrop-blur-sm border-white/20 hover:bg-white/10"
 											data-cursor-hover
+											onClick={() => handleProjectClick(project.url)}
 										>
 											<ExternalLink className="h-4 w-4" />
 										</Button>
@@ -211,12 +271,13 @@ export function Projects() {
 								<p className="text-gray-300 mb-6">{project.description}</p>
 
 								<div className="flex flex-wrap gap-2 mb-8">
-									{project.tags.map((tag) => (
+									{project.tags.map((tag, i) => (
 										<span
-											key={tag}
-											className="px-3 py-1 text-sm bg-white/5 backdrop-blur-sm rounded-full border border-white/10"
+											key={i}
+											className="px-3 py-1 flex items-center gap-2 justify-center text-sm bg-white/5 backdrop-blur-sm rounded-full border border-white/10"
 										>
-											{tag}
+											{tag.title}
+											{tag.icon}
 										</span>
 									))}
 								</div>
@@ -224,6 +285,7 @@ export function Projects() {
 								<Button
 									className="bg-gradient-to-r from-blue-600 to-violet-600 hover:from-blue-700 hover:to-violet-700 text-white border-0"
 									data-cursor-hover
+									onClick={() => handleProjectClick(project.url)}
 								>
 									View Project <ArrowUpRight className="ml-2 h-4 w-4" />
 								</Button>
