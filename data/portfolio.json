@@ -1,0 +1,125 @@
+{
+	"name": "Favour Opia",
+	"about": {
+		"description": [
+			"I'm a creative developer with a passion for building immersive digital experiences that blend cutting-edge technology with thoughtful design.",
+			"With expertise in frontend development, 3D graphics, and interactive animations, I create websites that not only look stunning but also provide meaningful user experiences.",
+			"My approach combines technical precision with artistic vision, resulting in digital products that stand out in today's crowded online landscape."
+		],
+		"skills": [
+			"Next.js",
+			"React",
+			"React Native",
+			"Expo",
+			"Three.js",
+			"Framer Motion",
+			"GSAP",
+			"TypeScript",
+			"JavaScript",
+			"Node.js",
+			"Express.js",
+			"Golang",
+			"Tailwind CSS",
+			"MongoDB"
+		]
+	},
+	"skills": [
+		{
+			"title": "Frontend Development",
+			"description": "Building responsive and performant web applications with modern frameworks and tools.",
+			"technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS"]
+		},
+		{
+			"title": "3D Graphics & WebGL",
+			"description": "Creating immersive 3D experiences and interactive visualizations for the web.",
+			"technologies": ["Three.js", "React Three Fiber", "WebGL", "GLSL"]
+		},
+		{
+			"title": "Animation & Interaction",
+			"description": "Crafting smooth animations and micro-interactions that enhance user experience.",
+			"technologies": ["GSAP", "Framer Motion", "Lottie", "CSS Animations"]
+		},
+		{
+			"title": "UI/UX Design",
+			"description": "Designing intuitive interfaces with a focus on usability and aesthetic appeal.",
+			"technologies": ["Figma", "Adobe XD", "Design Systems", "Prototyping"]
+		},
+		{
+			"title": "AI Integration",
+			"description": "Implementing AI-powered features to create intelligent and adaptive user experiences.",
+			"technologies": [
+				"Vercel AI SDK",
+				"OpenAI API",
+				"TensorFlow.js",
+				"Natural Language Processing"
+			]
+		}
+	],
+	"projects": [
+		{
+			"title": "Patient-Doctor Appointment Booking System",
+			"description": "A Fully Responsive and Functional Doctor-Patient Appointment Booking application built with REACT, Next.js, TAILWIND and Appwrite",
+			"url": "https://opia-health-care.vercel.app/",
+			"github_url": "https://github.com/develoFavour/opia-health-care",
+			"technologies": [
+				"Appwrite",
+				"React",
+				"Next.js",
+				"TypeScript",
+				"Tailwind CSS"
+			],
+			"image": "/projects/opia-health-care2.jpg"
+		},
+		{
+			"title": "Top-Shop Commerce",
+			"description": "A modern e-commerce platform with advanced animations and smooth transitions.",
+			"url": "https://top-shop-virid.vercel.app/",
+			"github_url": "https://github.com/develoFavour/Top-Shop",
+			"technologies": ["Next.js", "Framer Motion", "TypeScript", "MongoDB"],
+			"image": "/projects/topshop.jpg"
+		},
+		{
+			"title": "MediCare",
+			"description": "An advanced hospital platform with personalized dashboards for doctors, admins, and patients with the fullest features of booking appointment requests by patient, appointment scheduling, and patient management by admin, prescription by doctor, etc.",
+			"url": "https://medicare-taupe.vercel.app/",
+			"github_url": "https://github.com/develoFavour/MediCare",
+			"technologies": ["Next.js", "Framer Motion", "TypeScript", "MongoDB"],
+			"image": "/projects/medicare.jpg"
+		},
+		{
+			"title": "Pincial",
+			"description": "A Fully Responsive Social Media Application Pinterest Clone built with REACT, TAILWIND and SANITY",
+			"url": "https://pincial.netlify.app/",
+			"github_url": "https://github.com/develoFavour/pincial",
+			"technologies": ["React", "Tailwind CSS", "JavaScript"],
+			"image": "/projects/pincial.jpg"
+		}
+	],
+	"experience": [
+		{
+			"role": "Frontend Developer",
+			"company": "D'Hub Technologies",
+			"location": "Remote",
+			"period": "July 2024 - May 2025",
+			"duration": "10 months",
+			"description": "Led the development of interactive web applications using React, Next.js, framer-motion, and responsive design. Implemented advanced animations and 3D visualizations that increased user engagement by 40%. Worked on the dashboard design and development using Next.js and Tailwind CSS.",
+			"skills": [
+				"React",
+				"Next.js",
+				"Framer Motion",
+				"Tailwind CSS",
+				"GSAP",
+				"TypeScript"
+			]
+		},
+		{
+			"role": "Frontend Mobile Application Developer",
+			"company": "30th Century",
+			"location": "Remote",
+			"period": "May 2025 - current",
+			"duration": "4 months",
+			"description": "I was responsible for building the UI of a social media application using React Native, Tailwind CSS, and Expo. The application was a mix of social media features and an e-commerce platform. I collaborated with the backend team",
+			"skills": ["React Native", "Expo", "Tailwind CSS", "React", "JavaScript"]
+		}
+	]
+}

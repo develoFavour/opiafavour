@@ -95,8 +95,6 @@ export function Projects() {
 	const [activeProject, setActiveProject] = useState(0);
 	const [isMounted, setIsMounted] = useState(false);
 
-	console.log(activeProject);
-
 	useEffect(() => {
 		setIsMounted(true);
 	}, []);
