@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import {
+	SiExpo,
 	SiExpress,
 	SiJavascript,
 	SiMongodb,
@@ -137,14 +138,13 @@ export function About() {
 					>
 						<div className="space-y-4 text-gray-300">
 							<p>
-								I&apos;m a creative developer with a passion for building
-								immersive digital experiences that blend cutting-edge technology
-								with thoughtful design.
+							I&apos;m a creative fullstack developer with a passion for building immersive digital experiences that blend cutting-edge technology with thoughtful design.,
+			
 							</p>
 							<p>
-								With expertise in frontend development, 3D graphics, and
-								interactive animations, I create websites that not only look
-								stunning but also provide meaningful user experiences.
+							With 2+ years of experience in frontend and backend development, I specialize in crafting engaging web applications and interactive user interfaces,
+							with expertise in frontend and backend development, 3D graphics, and interactive animations, I create websites that not only look stunning but also provide meaningful user experiences
+			
 							</p>
 							<p>
 								My approach combines technical precision with artistic vision,
@@ -157,6 +157,8 @@ export function About() {
 							{[
 								{ title: "Next.js", icon: <SiNextdotjs /> },
 								{ title: "React", icon: <FaReact /> },
+								{ title: "React Native", icon: <FaReact /> },
+								{ title: "Expo", icon: <SiExpo /> },
 								{ title: "Three.js", icon: <TbBrandThreejs /> },
 								{ title: "Framer Motion", icon: <FiFramer /> },
 								{ title: "GSAP", icon: <FaCircleNodes /> },

@@ -7,7 +7,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ArrowUpRight, ExternalLink, Github } from "lucide-react";
-import { SiAppwrite } from "react-icons/si";
+import { SiAppwrite, SiSupabase } from "react-icons/si";
 
 import {
 	SiJavascript,
@@ -23,6 +23,23 @@ import { FiFramer } from "react-icons/fi";
 import { RiTailwindCssFill } from "react-icons/ri";
 
 const projects = [
+	{
+		id: 5,
+		title: "ContentAI",
+		description:
+			"A Fullstack AI-powered content generation application built with REACT, Next.js, Supabase,TAILWIND and OpenAI API, groq",
+		url: "https://content-ai-eta.vercel.app/",
+		github_url: "https://github.com/develoFavour/content-ai",
+		tags: [
+			{ title: "Next.js", icon: <SiNextdotjs /> },
+			{ title: "TypeScript", icon: <SiTypescript /> },
+			{ title: "React", icon: <FaReact /> },
+			{ title: "Supabase", icon: <SiSupabase /> },
+			{ title: "Tailwind CSS", icon: <RiTailwindCssFill /> },
+		],
+
+		image: "/projects/content-ai.jpg",
+	},
 	{
 		id: 1,
 		title: "Patient-Doctor Appointment Booking System",
