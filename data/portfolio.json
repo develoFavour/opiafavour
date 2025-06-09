@@ -2,8 +2,9 @@
 	"name": "Favour Opia",
 	"about": {
 		"description": [
-			"I'm a creative developer with a passion for building immersive digital experiences that blend cutting-edge technology with thoughtful design.",
-			"With expertise in frontend development, 3D graphics, and interactive animations, I create websites that not only look stunning but also provide meaningful user experiences.",
+			"I'm a creative fullstack developer with a passion for building immersive digital experiences that blend cutting-edge technology with thoughtful design.",
+			"With 2+ years of experience in frontend and backend development, I specialize in crafting engaging web applications and interactive user interfaces.",
+			"With expertise in frontend and backend development, 3D graphics, and interactive animations, I create websites that not only look stunning but also provide meaningful user experiences.",
 			"My approach combines technical precision with artistic vision, resulting in digital products that stand out in today's crowded online landscape."
 		],
 		"skills": [
@@ -28,6 +29,17 @@
 			"title": "Frontend Development",
 			"description": "Building responsive and performant web applications with modern frameworks and tools.",
 			"technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS"]
+		},
+		{
+			"title": "Backend Development",
+			"description": "Building robust and scalable server-side applications with Node.js and Express.js.",
+			"technologies": [
+				"Node.js",
+				"Express.js",
+				"REST API",
+				"MongoDB",
+				"Next.js"
+			]
 		},
 		{
 			"title": "3D Graphics & WebGL",
@@ -58,7 +70,7 @@
 	"projects": [
 		{
 			"title": "Patient-Doctor Appointment Booking System",
-			"description": "A Fully Responsive and Functional Doctor-Patient Appointment Booking application built with REACT, Next.js, TAILWIND and Appwrite",
+			"description": "A Fullstack Doctor-Patient Appointment Booking application built with REACT, Next.js, TAILWIND and Appwrite",
 			"url": "https://opia-health-care.vercel.app/",
 			"github_url": "https://github.com/develoFavour/opia-health-care",
 			"technologies": [
@@ -71,8 +83,22 @@
 			"image": "/projects/opia-health-care2.jpg"
 		},
 		{
+			"title": "ContentAI",
+			"description": "A Fullstack AI-powered content generation application built with REACT, Next.js, Supabase,TAILWIND and OpenAI API, groq",
+			"url": "https://content-ai-eta.vercel.app/",
+			"github_url": "https://github.com/develoFavour/content-ai",
+			"technologies": [
+				"React",
+				"Next.js",
+				"TypeScript",
+				"Tailwind CSS",
+				"Supabase"
+			],
+			"image": "/projects/pincial.jpg"
+		},
+		{
 			"title": "Top-Shop Commerce",
-			"description": "A modern e-commerce platform with advanced animations and smooth transitions.",
+			"description": "A Fullstack modern e-commerce platform with advanced animations and smooth transitions.",
 			"url": "https://top-shop-virid.vercel.app/",
 			"github_url": "https://github.com/develoFavour/Top-Shop",
 			"technologies": ["Next.js", "Framer Motion", "TypeScript", "MongoDB"],
@@ -80,7 +106,7 @@
 		},
 		{
 			"title": "MediCare",
-			"description": "An advanced hospital platform with personalized dashboards for doctors, admins, and patients with the fullest features of booking appointment requests by patient, appointment scheduling, and patient management by admin, prescription by doctor, etc.",
+			"description": "An fullstack advanced hospital platform with personalized dashboards for doctors, admins, and patients with the fullest features of booking appointment requests by patient, appointment scheduling, and patient management by admin, prescription by doctor, etc.",
 			"url": "https://medicare-taupe.vercel.app/",
 			"github_url": "https://github.com/develoFavour/MediCare",
 			"technologies": ["Next.js", "Framer Motion", "TypeScript", "MongoDB"],
@@ -88,7 +114,7 @@
 		},
 		{
 			"title": "Pincial",
-			"description": "A Fully Responsive Social Media Application Pinterest Clone built with REACT, TAILWIND and SANITY",
+			"description": "A Fullstack Social Media Application Pinterest Clone built with REACT, TAILWIND and SANITY",
 			"url": "https://pincial.netlify.app/",
 			"github_url": "https://github.com/develoFavour/pincial",
 			"technologies": ["React", "Tailwind CSS", "JavaScript"],
@@ -97,7 +123,7 @@
 	],
 	"experience": [
 		{
-			"role": "Frontend Developer",
+			"role": "Next.js Developer",
 			"company": "D'Hub Technologies",
 			"location": "Remote",
 			"period": "July 2024 - May 2025",

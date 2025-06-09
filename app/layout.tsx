@@ -4,6 +4,7 @@ import { LocomotiveScrollProvider } from "@/app/components/locomotive-scroll-pro
 import { ThemeProvider } from "@/app/components/theme-provider";
 import { CustomCursor } from "@/app/components/custom-cursor";
 import "./globals.css";
+import { Toaster } from "@/components/ui/sonner";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const geist = Geist_Sans({ subsets: ["latin"], variable: "--font-geist" });
@@ -28,6 +29,7 @@ export default function RootLayout({
 					<LocomotiveScrollProvider>
 						<CustomCursor />
 						{children}
+						<Toaster />
 					</LocomotiveScrollProvider>
 				</ThemeProvider>
 			</body>
