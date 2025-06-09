@@ -106,7 +106,7 @@
 		},
 		{
 			"title": "MediCare",
-			"description": "An fullstack advanced hospital platform with personalized dashboards for doctors, admins, and patients with the fullest features of booking appointment requests by patient, appointment scheduling, and patient management by admin, prescription by doctor, etc.",
+			"description": "A fullstack advanced hospital platform with personalized dashboards for doctors, admins, and patients with the fullest features of booking appointment requests by patient, appointment scheduling, and patient management by admin, prescription by doctor, etc.",
 			"url": "https://medicare-taupe.vercel.app/",
 			"github_url": "https://github.com/develoFavour/MediCare",
 			"technologies": ["Next.js", "Framer Motion", "TypeScript", "MongoDB"],

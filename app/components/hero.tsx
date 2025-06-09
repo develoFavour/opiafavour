@@ -50,7 +50,10 @@ export function Hero() {
 			ScrollTrigger.getAll().forEach((t) => t.kill());
 		};
 	}, []);
-
+	const getFullYear = () => {
+		const date = new Date();
+		return date.getFullYear();
+	};
 	return (
 		<section
 			ref={sectionRef}
@@ -73,7 +76,7 @@ export function Hero() {
 					data-scroll-speed="0.1"
 				>
 					<span className="inline-block px-3 py-1 text-xs font-medium tracking-wider text-white uppercase bg-white/10 rounded-full backdrop-blur-sm border border-white/10">
-						Portfolio 2024
+						Portfolio {getFullYear()}
 					</span>
 				</motion.div>
 

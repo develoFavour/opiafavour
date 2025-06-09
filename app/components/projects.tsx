@@ -44,7 +44,7 @@ const projects = [
 		id: 1,
 		title: "Patient-Doctor Appointment Booking System",
 		description:
-			"A Fully Responsive and Functional Doctor-Patient Appointment Booking application built with REACT, Next.js, TAILWIND and Appwrite",
+			"A Fullstack Doctor-Patient Appointment Booking application built with REACT, Next.js, TAILWIND and Appwrite. The application allows users to book appointments with available doctors, and an admin dashboard for doctors to accept or reject appointments.",
 		url: "https://opia-health-care.vercel.app/",
 		github_url: "https://github.com/develoFavour/opia-health-care",
 		tags: [
@@ -60,7 +60,7 @@ const projects = [
 		id: 2,
 		title: "Top-Shop Commerce",
 		description:
-			"A modern e-commerce platform with advanced animations and smooth transitions.",
+			"A Fullstack modern e-commerce platform with advanced animations and smooth transitions. Built with Next.js, Framer Motion, TypeScript, and MongoDB.",
 		url: "https://top-shop-virid.vercel.app/",
 		github_url: "https://github.com/develoFavour/Top-Shop",
 		tags: [
@@ -75,7 +75,7 @@ const projects = [
 		id: 3,
 		title: "MediCare",
 		description:
-			"An advanced hospital platform with personalized dashboards for doctors, admins, and patients with the fullest features of booking appointment requests by patient, appointment scheduling, and patient management by admin, prescription by doctor, etc.",
+			"A fullstack advanced hospital platform with personalized dashboards for doctors, admins, and patients with the fullest features encompassing all aspect of healthcare services of making appointment requests by patient, appointment scheduling by admin to doctors, patient and doctor notification, doctor management and patient management by admin, prescription by doctor, etc.",
 		url: "https://medicare-taupe.vercel.app/",
 		github_url: "https://github.com/develoFavour/MediCare",
 		tags: [
@@ -91,7 +91,7 @@ const projects = [
 		id: 4,
 		title: "Pincial",
 		description:
-			"A Fully Responsive Social Media Application Pinterest Clone built with REACT, TAILWIND and SANITY",
+			"A Fullstack Social Media Application Pinterest Clone built with REACT, TAILWIND and SANITY. This pinterest clone is a fullstack social media application that allows users to create and manage pins, and post their favorite pictures.",
 
 		url: "https://pincial.netlify.app/",
 		github_url: "https://github.com/develoFavour/pincial",
