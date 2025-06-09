@@ -138,13 +138,17 @@ export function About() {
 					>
 						<div className="space-y-4 text-gray-300">
 							<p>
-							I&apos;m a creative fullstack developer with a passion for building immersive digital experiences that blend cutting-edge technology with thoughtful design.,
-			
+								I&apos;m a creative fullstack developer with a passion for
+								building immersive digital experiences that blend cutting-edge
+								technology with thoughtful design.,
 							</p>
 							<p>
-							With 2+ years of experience in frontend and backend development, I specialize in crafting engaging web applications and interactive user interfaces,
-							with expertise in frontend and backend development, 3D graphics, and interactive animations, I create websites that not only look stunning but also provide meaningful user experiences
-			
+								With 2+ years of professional experience in frontend and backend
+								development, I specialize in crafting engaging web applications
+								and interactive user interfaces, with expertise in frontend and
+								backend development, 3D graphics, and interactive animations, I
+								create websites that not only look stunning but also provide
+								meaningful user experiences
 							</p>
 							<p>
 								My approach combines technical precision with artistic vision,
